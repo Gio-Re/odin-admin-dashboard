@@ -1,0 +1,166 @@
+body {
+    margin: 0px 250px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+    align-items: stretch;
+}
+
+.container >  * {
+    border: 2px dashed black;
+    border-collapse:collapse;
+}
+
+.sidebar {
+    padding: 1.2em;
+    grid-column: 1;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3em;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.nav-profile,
+.nav-general {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.nav-profile > ul {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 0.5em;
+}
+
+.nav-general > ul {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0.5em;
+}
+
+.header {
+    padding: 0 2.5em;
+    padding-bottom: 1.5em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+.search,
+.profile-info {
+    justify-self: start;
+}
+
+.profile-info {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1em;
+}
+
+.profile-info > span {
+    grid-row: 1 / 3;
+    grid-column: 1;
+    justify-self: center;
+}
+.profile-info > h5 {
+    grid-row: 1 / 2;
+    grid-column: 2;
+}
+
+.profile-info > h1,
+.profile-info > h5 {
+    margin: 0;
+}
+
+.notification,
+.button, 
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.main-content {
+    padding: 0 2.5em;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em;
+}
+
+.project {
+    grid-row: 1 / 3;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5em;
+}
+
+.card {
+    padding: 1.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card-func {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5em;
+}
+
+.announcement  h5,
+.announcement p {
+    margin: 0;
+}
+
+.announcement h5 {
+    margin-bottom: .5em;
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.announc-container {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1.5em;
+}
+
+.announc-container > div {
+    border-bottom: 1px solid gray;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+}
+
+.announc-container > div:last-child {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+
