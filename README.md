@@ -25,3 +25,10 @@ You don’t have to make a pixel perfect match with the design example. Consider
 Don’t forget to push your finished dashboard to GitHub. Use GitHub Pages to publish it to the world!
 Step 6: Section feedback
 Before you move on, we would love it if you could submit your feedback on the Intermediate HTML and CSS course.
+
+credits: 
+Foto di <a href="https://unsplash.com/it/@nathanmateus23?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nathan Mateus</a> su <a href="https://unsplash.com/it/foto/un-piccolo-coniglio-seduto-in-cima-a-un-campo-di-terra-BuBx3Tj69yc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Foto di <a href="https://unsplash.com/it/@charlesdeluvio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">charlesdeluvio</a> su <a href="https://unsplash.com/it/foto/carlino-nero-con-sciarpa-in-maglia-grigia-Mv9hjnEUHR4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Foto di <a href="https://unsplash.com/it/@levinicodemus?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Levi Nicodemus</a> su <a href="https://unsplash.com/it/foto/un-primo-piano-di-un-gatto-con-gli-occhi-verdi--fRaip_b9vc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Foto di <a href="https://unsplash.com/it/@kellyforrister?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kelly Forrister</a> su <a href="https://unsplash.com/it/foto/foto-di-cavallo-marrone-durante-il-giorno-OLL7SNhGeZk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+https://pictogrammers.com/library/mdi/          
