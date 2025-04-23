@@ -1,21 +1,22 @@
+:root {
+    --blue : rgb(12, 132, 187);
+    --grey : rgb(228, 228, 233); 
+}
+
 body {
-    margin: 0px 250px;
+    margin: 0px 0px;
 }
 
 .container {
-    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
     align-items: stretch;
 }
 
-.container >  * {
-    border: 2px dashed black;
-    border-collapse:collapse;
-}
-
 .sidebar {
+    background-color: var(--blue);
+    color: whitesmoke;
     padding: 1.2em;
     grid-column: 1;
     grid-row: 1 / 3;
@@ -66,6 +67,20 @@ ul {
     justify-self: start;
 }
 
+#search {
+    appearance: none;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--grey);
+    height: 2.5em;
+    width: 50em;
+}
+
+#btn {
+    border: none;
+    background-color: transparent;
+}
+
 .profile-info {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -99,16 +114,31 @@ ul {
     gap: 1em;
 }
 
+.button button{
+    border: none;
+    background-color: var(--blue);
+    border-radius: 25px;
+    font-size: 1.2em;
+    color: whitesmoke;
+    padding: .5em 1em;
+
+}
+
 .main-content {
+    background-color: rgb(228, 228, 233);
     padding: 0 2.5em;
+    padding-bottom: 2.5em;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 2em;
+    column-gap: 2em;
 }
 
 .project {
     grid-row: 1 / 3;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: 1fr 10fr;
 }
 
 .card-container {
@@ -118,9 +148,19 @@ ul {
 }
 
 .card {
+    background-color: white;
     padding: 1.5em;
-    border: 1px solid black;
+    box-shadow: 0px 0px 25px 1px gray;
+    border-left: 10px solid orange;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card h3,
+.card p {
+    margin: 0;
 }
 
 .card-func {
@@ -145,7 +185,8 @@ ul {
 }
 
 .announc-container {
-    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 0px 0px 25px 1px gray;
     border-radius: 5px;
     padding: 1.5em;
 }
@@ -160,6 +201,35 @@ ul {
     border: none;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+.trending {
+    align-self: end;
+}
+
+.trending h5,
+.trending p {
+    margin: 0;
+}
+
+.trending p {
+    margin-bottom: 1em;
+}
+
+.trending > div {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(4, 1fr);
+    box-shadow: 0px 0px 25px 1px gray;
+    border-radius: 5px;
+    padding: 1.5em;
+    align-items: center;
+}
+
+
+.trending > .img-profile {
+    grid-column: 1 / 2;
 }
 
 
